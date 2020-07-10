@@ -4,12 +4,10 @@
   </mat-sidenav>
   <div class="site">
     <header>
-      <app-header></app-header>
+      <app-header (toggle)="sidenav.toggle()"></app-header>
     </header>
     <main>
-      <button (click)="sidenav.toggle()">
-        Open Sidebar
-      </button>
+      <router-outlet></router-outlet>
     </main>
     <footer>
       <app-footer></app-footer>
