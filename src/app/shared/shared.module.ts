@@ -6,6 +6,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule, MatInput } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 
 
@@ -19,6 +20,7 @@ import { MatListModule } from '@angular/material/list';
     MatCardModule,
     MatInputModule,
     MatListModule,
+    MatSlideToggleModule
   ],
   exports: [
     CommonModule,
@@ -28,6 +30,7 @@ import { MatListModule } from '@angular/material/list';
     MatCardModule,
     MatInputModule,
     MatListModule,
+    MatSlideToggleModule
   ],
 })
 export class SharedModule { }
